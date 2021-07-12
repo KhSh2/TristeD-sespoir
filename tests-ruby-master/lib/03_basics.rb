@@ -28,6 +28,13 @@ def reverse_upcase_noLTA(var)
         return var_i.delete("LTA")
     end 
 end 
+
+ou 
+
+def reverse_upcase_noLTA(var)
+    var.reverse.upcase.delete ("LTA")
+end 
+
 #puts reverse_upcase_noLTA("Tries this at Home, Kids")
 #puts reverse_upcase_noLTA("Ponies loves carrots")
 #puts reverse_upcase_noLTA ("qwertyuiopasdfghjkl;zxcvbn")
